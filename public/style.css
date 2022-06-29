@@ -35,14 +35,14 @@ li a {
 
 
 
-.container-inicio {
+.container:first-child {
     width: 1361px;
     height: 721px;
     
     background: radial-gradient(circle at top right, rgba(10,81,92,1) 0%, rgba(41,49,50,1) 33%);
 }
 
-.bloco-inicio {
+.container-bloco {
     margin: 0 auto;
     height: 100%;
     width: 80%;
@@ -53,41 +53,19 @@ div p {
     margin: 0 auto;
 }
 
-.container-2 {
+.container {
     width: 1361px;
     height: 394px;
     background: rgb(41,49,50);
     background: linear-gradient(273deg, rgba(41,49,50,1) 0%, rgba(10,81,92,1) 56%);
 }
 
-.bloco-2 {
-    margin: 0 auto;
-    height: 100%;
-    width: 80%;
-}
 
-.container-3 {
+.container:nth-child(2n) {
     width: 1361px;
     height: 494px;
     background: rgba(41,49,50,1);
 }
 
-.bloco-3 {
-    margin: 0 auto;
-    height: 100%;
-    width: 80%;
-}
 
-.container-4 {
-    width: 1361px;
-    height: 394px;
-    background: rgb(41,49,50);
-    background: linear-gradient(273deg, rgba(41,49,50,1) 0%, rgba(10,81,92,1) 56%);
-}
 
-.bloco-4 {
-    margin: 0 auto;
-    height: 100%;
-    width: 80%;
-
-}

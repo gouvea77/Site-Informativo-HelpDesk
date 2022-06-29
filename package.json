@@ -1,0 +1,25 @@
+{
+  "name": "site-informativo-helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouvea77/Site-Informativo-HelpDesk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouvea77/Site-Informativo-HelpDesk/issues"
+  },
+  "homepage": "https://github.com/gouvea77/Site-Informativo-HelpDesk#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.18"
+  }
+}
