@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/gouvea77/Site-Informativo-HelpDesk#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
+    "mongoose": "^6.4.1",
     "nodemon": "^2.0.18"
   }
 }
