@@ -50,9 +50,11 @@ app.get('/medsmart', (req, res) => {
             'texto': 'Exemplo de texto 3'
         },
         {
+            'titulo': 'Exemplo de titulo 4',
             'texto': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo mi eu tortor euismod, luctus cursus odio sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et malesuada leo. Vivamus ac leo at mi laoreet tincidunt sit amet viverra elit. Suspendisse ut sapien justo. Donec rutrum urna quam, quis dignissim lorem finibus ac. Pellentesque vel nisl magna. Morbi vel nunc ex. Quisque ullamcorper mollis nibh et condimentum. Sed egestas felis quis odio tincidunt lobortis. Morbi quam sapien, rutrum eu pellentesque non, tempus non odio. Maecenas quis condimentum est, sed semper turpis. Integer ut tellus ullamcorper, porta purus eu, pretium sem. Ut eget euismod turpis. Curabitur aliquam felis et ante suscipit, sit amet porta ex pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; '
         },
         {
+            'titulo': 'Exemplo de titulo 5',
             'texto': 'Ultima div criada'
         }
         
@@ -75,9 +77,11 @@ app.get('/medeletro', (req, res) => {
             'texto': 'Alunos medeletro ativo e adimplentes dentro do período letivo'
         },
         {
+            'titulo': 'Exemplo de titulo 4',
             'texto': 'Medeletro tem o próprio aplicativo'
         },
         {
+            'titulo': 'Exemplo de titulo 5',
             'texto': 'Exemplo texto final'
         }
     ]
