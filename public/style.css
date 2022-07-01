@@ -54,6 +54,8 @@ li a {
     margin-top: 1.5em;
     margin-left: 1.2em;
     margin-right: 45%;
+    border:solid 2px rgb(255, 255, 255);     
+    padding: 1.5em;     
     color: rgb(206, 201, 201);
 }
 
