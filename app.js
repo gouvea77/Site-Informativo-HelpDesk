@@ -86,6 +86,34 @@ app.get('/medeletro', (req, res) => {
     res.render('padrao', {dados: conteudo});
 });
 
+app.get('/medplanner', (req, res) => {
+    let conteudo = [
+        {
+            'titulo': 'Med Planner',
+            'texto': 'Exemplo de texto med planner'
+        },
+        {
+            'titulo': 'Exemplo titulo 2 med planner',
+            'texto': 'Exemplo texto 2 med planner'
+        },
+        {
+            'titulo': 'Quem tem acesso ao med planner',
+            'texto': 'Todos os alunos ativos e adimplentes do ano vigente possuem acesso a ferramenta'
+        },
+        {
+            'titulo': 'Exemplo de titulo 4',
+            'texto': 'Med Planner tem o próprio aplicativo'
+        },
+        {
+            'titulo': 'Exemplo de titulo 5',
+            'texto': 'Exemplo texto final'
+        }
+    ]
+
+
+    res.render('padrao', {dados: conteudo});
+});
+
 app.get('/rmais', (req, res)=>{
         let conteudo = [
             {
