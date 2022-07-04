@@ -90,24 +90,24 @@ app.get('/medplanner', (req, res) => {
     let conteudo = [
         {
             'titulo': 'Med Planner',
-            'texto': 'Exemplo de texto med planner'
+            'texto': 'O MED PLANNER é uma nova ferramenta que oferece ao aluno a possibilidade de organizar e planejar sua semana, de acordo com seus estudos e tarefas.<br><br>A ideia é o aluno organizar o seu cronograma de estudos semanalmente, como proposto pelos professores na Mentoria (Orientações> Organização da semana) do D1 ao D7.'
         },
         {
-            'titulo': 'Exemplo titulo 2 med planner',
-            'texto': 'Exemplo texto 2 med planner'
+            'titulo': 'Ferramentas',
+            'texto': 'O aluno pode adicionar uma tarefa.<br><br><br>Visualização do planner semanal ou mensal.<br><br><br>Aulas PRESENCIAIS / MEDCINE são adicionadas automaticamente pelo sistema.<br><br><br>Sinalização de tarefas pendentes.<br><br><br>Métrica de Metas X Realizados.'
+        },
+        {
+            'titulo': 'Gráficos de Meta x Realizado',
+            'texto': 'Além de todos os benefícios, o aluno tem acesso a um gráfico de desempenho referente a suas tarefas.<br><br>Sempre que o aluno criar uma tarefa, há a opção de marca-la como realizada.<br><br>Caso uma tarefa passe do dia e ou horário programado o planner sinalizará que há uma tarefa pendente.'
         },
         {
             'titulo': 'Quem tem acesso ao med planner',
-            'texto': 'Todos os alunos ativos e adimplentes do ano vigente possuem acesso a ferramenta'
+            'texto': 'Todos os alunos ATIVOS ADIMPLENTES com OV de 2022 tem acesso ao MED PLANNER.'
         },
         {
-            'titulo': 'Exemplo de titulo 4',
-            'texto': 'Med Planner tem o próprio aplicativo'
+            'titulo': 'Tela Inicial + Criação de Tarefas',
+            'texto': 'TELA 1: Tela inicial ao entrar no planner (todas as vezes que o aluno entrar e não possuir tarefas listadas, essa será a visualização.<br><br>TELA 2: Ao clicar no “adicionar tarefa” abrirá tela “criar tarefa”.<br><br>TELA 3: Ao clicar dentro de “selecionar categoria” abrirá whitelist correspondente (cada opção da whitelist terá um ícone pré definido conforme ícones da categoria).<br><br>TELA 4: Ao clicar dentro de recorrência abrirá whitelist correspondente.<br>'
         },
-        {
-            'titulo': 'Exemplo de titulo 5',
-            'texto': 'Exemplo texto final'
-        }
     ]
 
 
