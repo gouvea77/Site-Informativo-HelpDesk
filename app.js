@@ -46,17 +46,13 @@ app.get('/medsmart', (req, res) => {
             'texto': 'A lista de temas e a ordenação em ambas estas formas de revisão é a mesma. Se você quiser rever tema por tema, use a revisão por Tema Único. Mas se você quiser rever uma quantidade maior de temas de uma única vez, opte pelo modo Mix Temas'
         },
         {
-            'titulo': 'Exemplo de titulo 3',
-            'texto': 'Exemplo de texto 3'
+            'titulo': 'Contabilização de questões',
+            'texto': 'TODAS as questões realizadas são contabilizadas pelo MEDSMART, independentemente de em qual módulo ela é realizada. E, por isso, há a opção de escolher a partir de quando o aluno quer que as questões sejam selecionadas. Anteriormente, o módulo compreendia todas as questões realizadas, inclusive aquelas do aluno que fez em MEDCURSO 2021, por exemplo.'
         },
         {
             'titulo': 'Exemplo de titulo 4',
             'texto': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo mi eu tortor euismod, luctus cursus odio sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent et malesuada leo. Vivamus ac leo at mi laoreet tincidunt sit amet viverra elit. Suspendisse ut sapien justo. Donec rutrum urna quam, quis dignissim lorem finibus ac. Pellentesque vel nisl magna. Morbi vel nunc ex. Quisque ullamcorper mollis nibh et condimentum. Sed egestas felis quis odio tincidunt lobortis. Morbi quam sapien, rutrum eu pellentesque non, tempus non odio. Maecenas quis condimentum est, sed semper turpis. Integer ut tellus ullamcorper, porta purus eu, pretium sem. Ut eget euismod turpis. Curabitur aliquam felis et ante suscipit, sit amet porta ex pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; '
         },
-        {
-            'titulo': 'Exemplo de titulo 5',
-            'texto': 'Ultima div criada'
-        }
         
     ]
     res.render('padrao', {dados: conteudo});
@@ -66,23 +62,23 @@ app.get('/medeletro', (req, res) => {
     let conteudo = [
         {
             'titulo': 'Medeletro ECG',
-            'texto': 'Exemplo de texto medeletro'
+            'texto': 'O MedEletro é um programa de treinamento para quem quer aprender eletrocardiografia. Os contratantes terminarão o cronograma dominando não somente o diagnóstico do ECG, mas também a conduta clínica e terapêutica em diversas situações especiais.'
         },
         {
-            'titulo': 'Exemplo titulo 2 medeletro',
-            'texto': 'Exemplo texto 2 medeletro'
+            'titulo': 'Para quem é indicado?',
+            'texto': 'É indicado para todos os médicos e estudantes de medicina, inclusive os que estão se preparando para a Residência Médica, já que ECG é tema frequente em provas.'
         },
         {
-            'titulo': 'Quem tem acesso ao medeletro',
-            'texto': 'Alunos medeletro ativo e adimplentes dentro do período letivo'
+            'titulo': 'Mas o que é o iMED ?',
+            'texto': 'O iMED é o resultado da união das didáticas oral (aula) e escrita (texto) em um único formato: o eletrônico. Os contratantes receberão material acadêmico único, na forma de textos especiais, extremamente completos e detalhados, e ainda assim preservando a didática.'
         },
         {
-            'titulo': 'Exemplo de titulo 4',
-            'texto': 'Medeletro tem o próprio aplicativo'
+            'titulo': 'Pontos de atenção',
+            'texto': 'Não há material físico nem aulas. <br><br> Todo o conteúdo fica disponível por 11 semanas a partir da data de contratação  <br><br> Todo o conteúdo acadêmico pertinente ao módulo online MEDELETRO iMED será oferecido exclusivamente no formato ELETRÔNICO, através do aplicativo MEDSoft Pro.  <br><br>'
         },
         {
-            'titulo': 'Exemplo de titulo 5',
-            'texto': 'Exemplo texto final'
+            'titulo': 'Contrato',
+            'texto': 'O aluno faz a assinatura do contrato de forma on-line através da plataforma DocuSign. Entretanto, esse envio não ocorre de imediato porque a ordem de venda precisa estar com status ATIVA e ADIMPLENTE.'
         }
     ]
 
